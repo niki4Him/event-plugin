@@ -93,7 +93,7 @@
 
 
 	public function events_create_callback() {
-		add_meta_box('events_meta', 'Events', 'events_meta', 'events'));
+		add_meta_box('events_meta', 'Events', 'events_meta', 'events');
 	}
 
 	public function events_meta()
@@ -189,13 +189,13 @@
 
 
 
-new create_event_postype();
+	new create_event_postype();
 
 
 
 
 
-
+}
 
 
 
