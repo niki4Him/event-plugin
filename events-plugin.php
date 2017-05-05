@@ -9,7 +9,7 @@
 
 */
 
-	Class create_event_postype {
+	class create_event_postype {
 
 
 	
