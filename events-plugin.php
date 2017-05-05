@@ -184,7 +184,7 @@
     global $post_type;
     if( 'events' != $post_type )
     return;
-    wp_enqueue_script('ui-datepicker' . 'jquery.ui.datepicker.min.js');
+    wp_enqueue_script('ui-datepicker' . 'jquery-ui.min.js');
     wp_enqueue_script('custom_script', get_bloginfo('template_url').'jquery.js', array('jquery'));
 
 
